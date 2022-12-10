@@ -1,0 +1,266 @@
+.container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+
+/* -----Navbar----- */
+
+.navbar {
+    background-color: rgb(27, 20, 20);
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    padding: 5px 30px 5px 30px;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #a9855b;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 0px;
+    background-color: rgb(27, 20, 20);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    color: white;
+}
+
+.nav-link:hover {
+    color: #a9855b;
+    font-size: 1.4rem;
+}
+
+/* -----Carousel----- */
+.item1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("https://cdn.shopify.com/s/files/1/1414/6988/files/Seattle_coffee_roasters_best_coffee_roasters_seattle_coffee_roastery_seattle_coffee_roasters_seattle_coffee_roaster_Capitol_Hill_seattle_coffee_capital_hill_seattle_best_coffee_beans_in_seattle_seattl_2048x.jpg?v=1613797004");
+    background-size: 100% 48rem;
+}
+
+.item2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("https://www.coffeeaddress.com/file/manual/New%20images/we_coffee_default.jpg");
+}
+
+.item3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("https://www.coffeeaddress.com/file/manual/mill.jpg");
+    background-size: 100% 48rem;
+}
+
+.carousel-item {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 15rem 0rem;
+    height: 70%;
+    color: white;
+    position: relative;
+}
+
+
+/* -----About Us----- */
+.our-story-img1 {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 25px;
+}
+
+.our-story-img2 {
+    height: 25rem;
+    width: 27rem;
+    border-radius: 25px;
+}
+
+.about-us {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+.about-us-para {
+    color: #777;
+    padding: 2rem;
+}
+
+.about-us-head {
+    font-family: 'Dancing Script', cursive;
+    padding-left: 2rem;
+}
+
+
+/* -----Shop Now----- */
+.shop-now {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.718),
+            rgba(0, 0, 0, 0.818)), url("https://www.cafecoffeeday.com/sites/all/themes/ccd/assets/images/history-plx.jpg");
+    /* height: 30rem; */
+    background-size: 100% 48rem;
+    color: white;
+}
+
+.shop-now-para {
+    padding: 8rem 10rem 3rem 10rem;
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    color: #e8e8e8;
+}
+
+.buttonstyle {
+    width: 21.7%;
+    margin: auto;
+}
+
+.shop-now-btn {
+    margin-bottom: 5rem;
+    font-family: 'Montserrat';
+    color: #ffffff;
+    font-size: 23px;
+    background: transparent;
+    padding: 15px 45px 15px 45px;
+    border: solid #a9855b 3px;
+    text-decoration: none;
+    letter-spacing: 0.3rem;
+    border-radius: 0;
+}
+
+.shop-now-btn:hover {
+    font-family: 'Montserrat';
+    background: #a9855b;
+    border: solid #a9855b 3px;
+    text-decoration: none;
+}
+
+/* -----Testimonial----- */
+.testimonial-item {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    background-color: #f3eae0;
+    padding: 7rem 0rem;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-para {
+    padding: 2rem 15rem;
+    color: #a0784b;
+}
+
+
+/* -----Download App----- */
+.download-app-para {
+    padding: 8rem 10rem 1rem 10rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+.download-app-buttons {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.download-button {
+    margin: 1rem;
+}
+
+.download-app {
+    padding-bottom: 7rem;
+}
+
+
+/* -----Footer----- */
+#footer {
+    background-color: #f3eae0;
+    margin: 0;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 2rem 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.icons-last {
+    width: 28%;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+a .icons-last {
+    padding: 2rem;
+}
+
+.spanicon {
+    padding: 2rem;
+    color: #f4dbbe;
+}
+
+
+
+@media only screen and (max-width: 770px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* About Us */
+    .our-story-img1 {
+        height: 10rem;
+        width: 15rem;
+        border-radius: 25px;
+        vertical-align: middle;
+    }
+
+    .our-story-img2 {
+        height: 12.5rem;
+        width: 13.5rem;
+        border-radius: 25px;
+        vertical-align: middle;
+    }
+
+    .about-us {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+
+    .about-us-row {
+        padding: 0;
+    }
+
+    .about-us-para {
+        color: #777;
+        padding: 0 2rem;
+    }
+
+    .about-us-head {
+        font-family: 'Dancing Script', cursive;
+        padding-left: 2rem;
+    }
+
+    /* shop now */
+    .buttonstyle {
+        width: 80%;
+        margin: auto;
+    }
+}
