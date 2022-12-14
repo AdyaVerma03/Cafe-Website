@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cafe-Website/static/css/main.24274c51.css",
+    "main.js": "/Cafe-Website/static/js/main.3e9183ac.js",
+    "index.html": "/Cafe-Website/index.html",
+    "main.24274c51.css.map": "/Cafe-Website/static/css/main.24274c51.css.map",
+    "main.3e9183ac.js.map": "/Cafe-Website/static/js/main.3e9183ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24274c51.css",
+    "static/js/main.3e9183ac.js"
+  ]
+}
